@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 03</title>
+</head>
+<body>
+    <!-- Aumentar imagem (Exercício 03) -->
+
+    <h2>Passe o mouse na imagem</h2>
+    
+    <!-- Local -->
+    <!-- <img onmouseover="GRANDE(this)" onmouseout="Pequena(this)" src="michael-scott.png" width="100" height="100"> -->
+    
+    <!-- Web -->
+    <img onmouseover="GRANDE(this)" onmouseout="Pequena(this)" src="https://i.ibb.co/mtWLttG/michael-scott.png" width="100" height="100">
+    
+    <script>
+        function GRANDE(imagem) {
+            imagem.style.height = "400px";
+            imagem.style.width = "400px";
+            imagem.style.transition = ".2s ease-in all";
+        }
+        function Pequena(x) {
+            x.style.height = "100px";
+            x.style.width = "100px";
+            imagem.style.transition = ".2s ease-in all";
+        }
+    </script>
+</body>
+</html> 

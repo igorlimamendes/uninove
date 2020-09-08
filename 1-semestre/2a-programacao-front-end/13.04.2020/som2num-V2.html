@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exemplo de soma de dois numeros</title>
+	</head>
+	<body>
+		<p>Digite os numeros:</p>
+		
+		<input type="text" name="num1" id="num1Id" placeholder="Digite o primeiro numero"/>
+		<br />
+		<input type="text" name="num2" id="num2Id" placeholder="Digite o segundo numero"/>
+		<br />
+		<input type="button" value="--- Exibir Soma ---" id="btn-exibir"/>
+		<hr />
+		<script type="text/javascript">  
+		document.getElementById("btn-exibir").addEventListener("click", function() {
+		  var total_soma = Number(document.getElementById('num1Id').value)+ Number(document.getElementById('num2Id').value);
+		  alert('A soma dos numeros eh : ' + total_soma );	
+		});
+		</script>
+	</body>
+</html>
+
+

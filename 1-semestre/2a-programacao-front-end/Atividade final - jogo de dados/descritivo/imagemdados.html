@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Exemplo - Dynamics image</title>
+	<style>
+	div.box {
+		width: 150px;
+		height: 150px;
+		display: inline-block;
+	}
+	div.bigbox {
+		width: 500px;
+		height: 500px;
+		//border: solid;
+	}
+	</style>
+	<script>
+	var imgMemo;
+	var num_dado;
+	
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}	
+	 
+	 
+	timeout();  
+	
+	function timeout() {
+    setTimeout(function () {
+        // a cada timeout sortear um numero randomico e trocar a imagem pequena[
+        //logica de trocar imagem e sorter numero
+		
+		num_dado=getRandomInt(1, 6);
+				
+		switch(num_dado){
+		case 1:
+			document.getElementById('Img1').src="dado1.png";
+			break;
+		case 2:
+			document.getElementById('Img1').src="dado2.png";
+			break;
+		case 3:
+			document.getElementById('Img1').src="dado3.png";
+			break;
+		case 4:
+			document.getElementById('Img1').src="dado4.png";
+			break;
+		case 5:
+			document.getElementById('Img1').src="dado5.png";
+			break;
+		case 6:
+			document.getElementById('Img1').src="dado6.png";
+			break;
+		}
+		timeout();
+    }, 1000);
+}
+	  
+		function Grande(imagem){
+			
+			document.getElementById("bigImg").src = imagem.src;
+		}
+	</script>
+</head>
+<body>
+	<div class="bigbox">
+		<img src="dado0.png" id="bigImg" width="480px" height="480px"/>
+		<span> Sorteado </span>
+	</div>
+	<div class="box">
+		<img  onmouseover="Grande(this)" id="Img1" src="dado1.png" width="150px" height="150px"/>
+		<span>  Random </span>
+	</div>
+	
+
+</body>
+</html>	

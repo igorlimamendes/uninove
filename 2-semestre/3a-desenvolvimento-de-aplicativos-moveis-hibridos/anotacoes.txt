@@ -1,0 +1,5 @@
+https://github.com/EdsonMSouza/3_noite_mobile
+
+Configure > Settings > SDK > Android 6.0 (Marshmallow)
+
+Configure > Settings > Font > Keymap

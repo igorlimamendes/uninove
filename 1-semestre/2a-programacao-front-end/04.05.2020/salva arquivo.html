@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Salva arquivo HTML5</title>
+	<script type="text/javascript" src="FileSaver.js"></script>
+	<script>
+   function salvar() {
+      let texto = document.getElementById("texto").value;
+      let titulo = document.getElementById("titulo").value;
+	  // BLOB eh Binary Large Object ( qualquer coisa )
+      let blob = new Blob([texto], { type: "text/plain;charset=utf-8" });
+      saveAs(blob, titulo + ".txt");
+   }
+   </script>
+</head>
+<body>
+	
+   <h3>Salvar arquivo com JavaScript</h3>
+   
+     <label for="input-fileName">Nome do Arquivo</label><br/>
+     <input type="text" id="titulo" placeholder="Nome do Arquivo">
+   <br>
+     <label for="textarea">Texto</label><br/>
+     <textarea id="texto" placeholder="Digite um texto para salva-lo" style="width:320px; height:240px;"></textarea>
+  <br>
+     <button onclick="salvar()">Salvar</button>
+   
+</body>
+</html>

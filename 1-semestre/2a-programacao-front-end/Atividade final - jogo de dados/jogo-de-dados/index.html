@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Igor Lima Mendes de Sousa">
+    <title>Jogo de Dados</title>
+    <script src="script.js"></script>
+    <style>
+        .dice {display: inline-block;}
+        .boxButton {padding-top: 2em;}
+    </style>
+</head>
+<body onload="insertNames()">
+    <h1>Jogo de Dados</h1>
+
+    <div class="dice">
+        <p class="Player1">Jogador(a) 1</p>
+        <p class="points1">Pontos: 10</p>
+        <img class="img1" src="dado0.png">
+    </div>
+    <div class="dice">
+        <p class="Player2">Jogador(a) 2</p>
+        <p class="points2">Pontos: 10</p>
+        <img class="img2" src="dado0.png">
+    </div>
+  
+    <div class="boxButton">
+        <button type="button" onClick="dice()">Jogar o dado</button>
+        <a href="index.html" target="_self"><button>Reiniciar</button></a>
+        <button type="button" onClick="insertNames()">Trocar nomes</button>
+    </div>
+</body>
+</html>

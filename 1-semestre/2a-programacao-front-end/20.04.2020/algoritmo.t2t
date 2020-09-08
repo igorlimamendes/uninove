@@ -1,0 +1,10 @@
+algoritmo da somar dois numeros
+
+passo1: colocar titulo
+passo2: colocar um text box
+passo3: colocar o segundo text box
+passo4: colocar o botao de soma
+passo5: coloar o evento do botao de soma
+passo6: no evento do botao somar os dois numeros digitados
+passo7: mostrar o resultado no ALERTA
+

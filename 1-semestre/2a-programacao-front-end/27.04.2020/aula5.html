@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5: Exercícios</title>
+</head>
+<body>
+    <!-- Fibonacci -->
+    <label for="value">Calcule Fibonacci até o número:</label>
+    <input type="number" name="valueName" id="value" placeholder="Inform a value" required>
+    <button type="button" id="button">Calcular</button>
+    <script>
+        let button = document.getElementById("button").addEventListener("click", function() {
+            let fibFinal = parseFloat(document.getElementById("value").value);
+            
+            let f1 = 1;
+            let f2 = 0;
+            let f3 = 0;
+
+            while (fibFinal > 0) {
+                f3 = f1;
+                document.write(`${f1}... `);
+                f1 += f2;
+                f2 = f3;
+                fibFinal--;
+            }
+        });
+    </script>
+</body>
+</html>

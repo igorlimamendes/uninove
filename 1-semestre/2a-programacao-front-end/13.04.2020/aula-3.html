@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercícios</title>
+
+	<!-- Exercício 005: Função Incrementa/Decrementa -->
+	<!-- <script>
+		let num = 0;
+
+		function add() {
+			num++;
+			mostrar(num);
+		}
+
+		function sub() {
+			num--;
+			mostrar(num);
+		}
+
+		function mostrar(valor) {
+			document.getElementById("resultado").innerHTML = valor;
+		}
+	</script> -->
+
+	<!-- Exercício 006: Programa que conta os clicks e mostra em alert -->
+<!-- 	<script>
+		let soma = 0;
+
+		function clicks() {
+			soma++;
+			alert(soma);
+		}
+	</script> -->
+</head>
+<body>
+	<!-- Exemplo: Traduzir os botões -->
+	<!-- <button type="button" onclick="document.getElementById('frase').innerHTML = 'How are you?' ">English</button>
+	<button type="button" onclick="document.getElementById('frase').innerHTML = 'Como vai você?' ">Português</button>
+	
+	<p id="frase">Lorem ipsum dolor.</p> -->
+
+	<!-- Exercício 001: Exemplo JavaScript - alert -->
+	<!-- <script type="text/javascript">
+		alert("Testando um Alerta...");
+	</script> -->
+
+	<!-- Exercício 002: Evento Click -->
+	<!-- <button id="buttonClick">Exibir Alerta</button>
+	
+	<script type="text/javascript">
+		document.getElementById("buttonClick").addEventListener("click", function() {
+			alert("Hello, World!");
+		});
+	</script> -->
+
+	<!-- Exercício 003: Box Test -->
+	<!-- <strong>Informe o seu nome completo:</strong>
+	
+	<input type="text" name="userName" id="userId" placeholder="Digite o seu nome completo">
+	<input type="button" value="Mostrar nome" id="showName">
+	<script type="text/javascript">
+		document.getElementById("showName").addEventListener("click", function() {
+			let userName = document.getElementById("userId").value;
+			alert(`Seu nome completo é: ${userName}`);
+		})
+	</script> -->
+
+	<!-- Exercício 004: Soma Dois Números -->
+	<!-- <script type="text/javascript">
+		function somaDoisValores(valor1, valor2) {
+			let resultado = valor1 + valor2;
+
+			return resultado;
+		}
+
+		alert(somaDoisValores(3, 7));
+		alert(somaDoisValores(7, 3));
+		alert(somaDoisValores(10, 10));
+	</script> -->
+
+	<!-- Exercício 005: Função Incrementa/Decrementa -->
+	<!-- <button onclick="add()">Incrementa</button>
+	<button onclick="sub()">Decrementa</button>
+
+	<p id="resultado"></p> -->
+
+	<!-- Exercício 006: Programa que conta os clicks e mostra em alert -->
+	<!-- <button onclick="clicks()">Clique! Clique!</button> -->
+
+	<!--  
+	Exercício 007: Calcular média de 4 notas (box text), mostrar situação do aluno: aprovado ou reprovado
+	Observação: fazer em versão com 'alert' e versão de nova pagina: document.write
+	-->
+	<!-- <label for="nota01">Primeira nota:</label>
+	<input type="number" name="nota01" id="nota01"><br>
+	<label for="nota02">Segunda nota:</label>
+	<input type="number" name="nota02" id="nota02"><br>
+	<label for="nota03">Terceira nota:</label>
+	<input type="number" name="nota03" id="nota03"><br>
+	<label for="nota04">Quarta nota:</label>
+	<input type="number" name="nota04" id="nota04"><br>
+	
+	<input type="button" value="Verificar" id="verificarButton">
+
+	<script type="text/javascript">
+		let verificarButton = document.getElementById("verificarButton").addEventListener("click", function() {
+			let nota01 = parseFloat(document.getElementById("nota01").value);
+			let nota02 = parseFloat(document.getElementById("nota02").value);
+			let nota03 = parseFloat(document.getElementById("nota03").value);
+			let nota04 = parseFloat(document.getElementById("nota04").value);
+
+			let media = (nota01 + nota02 + nota03 + nota04) / 4;
+
+			// Exibindo em 'alert'
+			if (media >= 7) {
+				alert(`Nota de corte: 7\nMédia do aluno: ${media} \nSituação: APROVADO!`);
+			} else {
+				alert(`Nota de corte: 7\nMédia do aluno: ${media} \nSituação: REPROVADO!`);
+			}
+
+			// Exibindo em 'document.write'
+			if (media >= 7) {
+				document.write(`Nota de corte: 7<br>Média do aluno: ${media} <br>Situação: APROVADO!`);
+			} else {
+				document.write(`Nota de corte: 7<br>Média do aluno: ${media} <br>Situação: REPROVADO!`);
+			}
+		});
+	</script> -->
+
+	<!-- Exercício 008: Somar dois valores e exibir a soma -->
+	<!-- <input type="number" name="valor1" id="valor1" placeholder="Primeiro valor" required><br>
+	<input type="number" name="valor2" id="valor2" placeholder="Segundo valor" required><br>
+	
+	<button id="buttonResultado">Resultado</button>
+	<script type="text/javascript">
+		document.getElementById("buttonResultado").addEventListener("click", function() {
+			let valor1 = parseFloat(document.getElementById("valor1").value);
+			let valor2 = parseFloat(document.getElementById("valor2").value);
+
+			alert(valor1 + valor2);
+		});
+	</script> -->
+</body>
+</html>

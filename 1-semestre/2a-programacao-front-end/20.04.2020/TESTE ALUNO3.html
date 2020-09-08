@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="Javascript">
+    var num= 0;
+        
+    function add(){
+        num ++;
+        mostrar(num);
+    }
+    function sub(){
+        num--;
+        mostrar(num);
+    }
+    function mostrar(valor){
+        document.getElementById("resultado").innerHTML = valor;
+    }
+    </script>
+</head>
+<body>
+    <h2>Testando</h2><br/>
+    <button type="button" onclick=add()>Acrescenta</button>
+    <button type="button" onclick=sub()>Diminui</button>
+    
+    
+    <p id="resultado"></p>
+</body>
+</html>

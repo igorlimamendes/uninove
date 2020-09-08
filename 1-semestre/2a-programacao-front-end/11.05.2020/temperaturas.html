@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title> Conversões </title>
+	<script 	type="text/javascript"
+		src="temperature_conversion.js">
+	</script>
+</head>
+<body>
+<!-- fahrenheit = celsius/2 = kelvin-100 ( para um exemplo rápido - )-->
+	<form 	style="border: 1px double blue; background-color: #DDF;
+		padding: 4px;text-align:center;"
+		name="convert">
+		Fahrenheit: <input 	type="text" name="ftemp" id="ftempID" size="7"
+							onchange="convertTemp('ftoc')"> 
+		é o mesmo que Celsius: <input 	type="text" name="ctemp" size="7" 
+										onchange="convertTemp('ctof')">
+
+		é o mesmo que  Kelvin: <input 	type="text"	name="ktemp" size="7"
+								onchange="convertTemp('ktof')">
+		<br />  <br />
+		<input 	type="button" value="limpar" onclick="clearAll();">
+	</form>
+</body>
+</html>
+
+<!--
+passos de programação a serem realizados para
+criação do arquivo externo javascript
+1 - colocar ID em todos input
+2 - criar o arquivo.JS com o mesmo nome utilizado na importação no HTML
+3 - criar as funções para executar as conversões ( dois modos abaixos, escolha...)
+4 - lembrar que as fubções deveram ler o valor digitado no textbox e 
+colocar os valores convertidos nos outros 2 texts boxes
+
+
+**************modo (1) de chamadas de 3 funcoes especificas *****************
+convertTempCK(); // parametro dizendo que foi chamada pelo fahrenheit
+
+convertTempFK();  // parametro dizendo que foi chamada pelo celsius
+
+convertTempCF();	//parametro dizendo que foi chamada pelo kelvin
+************ construcao da funcao
+convertTempCK(){
+	// calcula celsius e Kelvin
+}
+convertTempFK(){
+	// calcula Fahrenheit e kelvin
+}
+convertTempCK() {
+		// calcula fahrenheit e celsius
+}
+*****************************************************
+***********modo (2) de chamadas de funcoes parametrizadas
+
+convertTemp(1); // parametro dizendo que foi chamada pelo fahrenheit
+
+convertTemp(2);  // parametro dizendo que foi chamada pelo celsius
+
+convertTemp(3);	//parametro dizendo que foi chamada pelo kelvin
+************ construcao da funcao JS
+convertTemp(var num){
+if(num==1){
+	// calcula celsius e Kelvin
+}
+else if ( num==2){
+	// calcula Fahrenheit e kelvin
+     }
+	 else {
+		// calcula fahrenheit e celsius
+	 }
+}
+************************************************	 
+	 
+-->

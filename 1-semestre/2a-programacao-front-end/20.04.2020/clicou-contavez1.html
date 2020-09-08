@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exemplos Java Script</title>
+	</head>
+	<body>
+
+		<button id="btn-clicou">Detectar Click</button>
+
+		<script type="text/javascript"> 
+		var contagem=0;	
+		document.getElementById('btn-clicou').addEventListener('click', function (){
+		  var var_vez='';
+		  contagem++;
+		  if(contagem==1)	  var_vez=' vez';
+		  else                var_vez=' vezes';
+		  alert('foi Clicado no botao '+ contagem + var_vez);
+		});
+		
+		</script>
+	</body>
+</html>

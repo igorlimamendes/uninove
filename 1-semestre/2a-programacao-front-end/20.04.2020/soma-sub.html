@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script type="text/javascript">
+	var num = 0;
+
+	function add() {
+		//num++;  // num = num + 1;
+		num=num+5;  // num+=5;
+		mostrar(num);
+	}
+	function sub() {
+		//num--;  // num = num - 1 ;
+		num=num-3;  //num-=3;
+		mostrar(num);
+	}
+	function mostrar(valor) {
+		document.getElementById("resultado").innerHTML = valor;
+	}
+	</script>
+	</head>
+	<body>
+
+		<h2>programa JavaScript de incremento e decremento</h2>
+
+		<button type="button"
+		onclick=add()>
+		--- SOMA ---</button>
+		
+		<button type="button"
+		onclick=sub()>
+		--- SUBTRAE ---</button>
+		
+		
+		<button type="button"
+		onclick = document.write(num);>
+		--- mostra em DocumentWrite ---</button>
+		
+	<p id="resultado"></p>
+		
+		
+	</body>
+</html> 

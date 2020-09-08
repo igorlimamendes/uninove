@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exemplo de validação de cpf</title>
+	</head>
+	<body>
+		<input type='text' id='cpfId' placeholder='digite CPF sem traço'>
+		
+		<button id="btn-valida" onclick="valida_alertCPF()">Valida CPF</button>
+
+		<script type="text/javascript"> 
+			function valida_alertCPF(){
+				var validado=TestaCPF(document.getElementById('cpfId').value);
+				if(validado==true)		alert("CPF ok");
+				else    				alert( "CPF INVALIDO");
+			}
+	
+			function TestaCPF(strCPF) {
+				var Soma;
+				var Resto;
+				Soma = 0;
+			  if (strCPF == "00000000000") return false;
+				 
+			  for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+			  Resto = (Soma * 10) % 11;
+			   
+				if ((Resto == 10) || (Resto == 11))  Resto = 0;
+				if (Resto != parseInt(strCPF.substring(9, 10)) ) return false;
+			   
+			  Soma = 0;
+				for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+				Resto = (Soma * 10) % 11;
+			   
+				if ((Resto == 10) || (Resto == 11))  Resto = 0;
+				if (Resto != parseInt(strCPF.substring(10, 11) ) ) return false;
+				return true;
+			}	
+		
+		</script>
+	</body>
+</html>
