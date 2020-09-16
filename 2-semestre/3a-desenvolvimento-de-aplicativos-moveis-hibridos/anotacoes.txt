@@ -3,3 +3,7 @@ https://github.com/EdsonMSouza/3_noite_mobile
 Configure > Settings > SDK > Android 6.0 (Marshmallow)
 
 Configure > Settings > Font > Keymap
+
+https://edsonmelo.com.br/uni9-bonus/
+
+https://github.com/EdsonMSouza/mobile_vergueiro_noite/tree/master/aula_04_atividade_IMC_04Abril
