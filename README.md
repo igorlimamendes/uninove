@@ -1,2 +1,2 @@
- Repository to keep college files.
+ Repository to keep college files
  
