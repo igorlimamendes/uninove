@@ -9,9 +9,24 @@
 </div>
 
 <%-- A variável abaixo é substituida pelo envio do Controller --%>
-O RA digitado foi: <c:out value="${msg_ra}" /><br>
-O nome digitado foi: <c:out value="${msg_nome}" /><br>
-O curso digitado foi: <c:out value="${msg_curso}" />
+<div class="row">
+    <div class="col-md-5 mb-3">
+        <label>O RA digitado foi: </label>
+        <strong><c:out value="${msg_ra}" /></strong><br>
+    </div>
+</div>
+<div class="row">
+<div class="col-md-8 mb-3">
+        <label>O NOME digitado foi: </label>
+        <strong><c:out value="${msg_nome}" /></strong><br>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8 mb-3">
+        <label>O CURSO digitado foi: </label>
+        <strong><c:out value="${msg_curso}" /></strong><br>
+    </div>
+</div>
 
 <%-- a linha abaixo faz a importação do código do rodapé --%>
 <c:import url="rodape.jsp" />
