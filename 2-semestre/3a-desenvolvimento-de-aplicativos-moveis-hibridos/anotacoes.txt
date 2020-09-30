@@ -7,3 +7,7 @@ Configure > Settings > Font > Keymap
 https://edsonmelo.com.br/uni9-bonus/
 
 https://github.com/EdsonMSouza/mobile_vergueiro_noite/tree/master/aula_04_atividade_IMC_04Abril
+
+1 - Criar o projeto (Empty Activity)
+2 - Criar os componentes no arquivo.xml
+3 - No arquivo.java fazer as associações dos objetos com o findViewById(R.id.nome_do_objeto)
