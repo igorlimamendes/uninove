@@ -1,0 +1,227 @@
+Aula POO 4
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package prj_helloworld;
+
+/**
+ *
+ * @author Admin
+ */
+public class Prj_HelloWorld {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+
+
+
+================================================
+Comentário: MENSAGEM DENTRO DO CÓDIGO 
+/* multiplas linhas*/
+// 1 linha
+
+
+BLOCO: conjunto de códigos em um espaço no programa.
+Serve para determinar o domício da funcionalidade usada.
+ 
+{
+		{  }
+	{  }
+	{  }
+ 
+ }
+
+----
+
+
+	{
+		{
+			{}
+			{}
+		}
+		{
+
+		}
+		
+	}
+---------------------
+FUNÇÕES : conjunto de códigos que executam uma tarefa.
+identificador - bloco.
+
+class Aluno{
+
+/////////////////////
+
+ESTUDA() {
+// CHAMAR A FUNÇÃO
+PEGALIVRO();
+DORME();
+
+}
+
+DORME(){}
+	
+PEGALIVRO(){
+	// n linhas
+}
+
+}
+===================================
+Exemplo
+
+class Calculadora {
+
+//publico (void)/int  soma-identificador ou nome da função
+	
+	public int soma(int numero1, int numero2){
+		return numero1+numero2;
+	}
+}
+
+
+
+
+==================================
+public static void main(String[] args) {
+        //comando de saída 
+        System.out.println("Olá Mundo");
+     }
+
+public -> pública as classes externos acessam. 
+	pode assumir a palavra protect e private -mas classes externas não acessam.
+ 
+static (não falar)
+
+void -> retorno em vazio - quando usa-se o void é considerado
+	uma procedure pois somente executa E NÃO RETORNA
+main -> nome da função ou procedure (IDENTIFICADOR)
+
+(String[] args) -> Parâmetro: são os dados que a função ou procedure recebe para tratamento.
+
+(
+String -> tipo de variável
+[] ( não falar)
+
+args -> nome da variavel
+)
+Ex.
+
+public float faren(float celsius)
+{
+	return (((9/5)*C)+32);
+}
+
+public float imc(float peso, float altura)
+{
+	return (peso / ( altura * altura));
+}
+
+public float baskara(int a, int b, int c)
+{
+	return ((b * b)- (4 * a * c));
+}
+
+
+	public Aluno imprimir(Aluno x)
+	{
+		return x;
+	}	
+
+	public Pizza imprimir(Pizza p)
+	{
+		return p;
+	}
+
+{ }
+
+void main()
+{
+
+}
+int main()
+{
+	return 0;
+}
+
+======================================
+20:22 09/10/2020
+
+Aula POO 5
+
+Construtor: Primeira função que vai ser executada dentro de 
+um Objeto (classe).
+
+auxiliar
+
+this = SANTOS(2020):"então seri para apontar que esta chamando o de fora do domínio"-sim.
+
+ENCAPSULAMENTO =
+uma forma de proteção, uma mascara, uma forma de tratar os dados,divisão dos métodos.
+
+
+	private String nome;
+	// setar ou colocar o valor
+	public void setNome(String aux){
+		this.nome = aux;
+	}
+	
+	//get - pegar o valor 
+	public String getNome(){
+		return this.nome;
+	}
+Uma das principais características do POO para proteção dos atributos, para que outras classes não a acessem de forma que possa atrapalhar seu funcionamento.
+
+	String x;
+	
+	//get
+	public String getX(){		
+		return this.x;
+	}
+	
+	//set
+	public void setX(String aux)
+	{
+		this.x= aux;
+	}
+
+	p1.setX("Teste");
+	System.out.println( p1.getX() );
+
+	p1.setX("Mensagem !!!!");
+	System.out.println( p1.getX() );
+
+===
+
+return - retorna. 
+
+// retorna o valor que está após a palavra reservada "return"
+return <valor>;
+
+// sair de uma procedure
+return;
+
+	private float preco;
+
+// return dentro da procedure - FUNÇÕES COM VOID
+public void setPreco(float aux)
+   {
+       if(aux<10) return;
+	// não executa da linha p baixo
+       this.preco = aux; 
+   }
+
+// retorno - função - MÉTODO
+public float getPreco()
+   {
+       return this.preco;
+   }
+

@@ -1,0 +1,117 @@
+Aula 2 passada
+
+Paradigmas de Programação/Computação
+
+Lógica-
+Funcional-
+Imperativa
+Orientada a Objetos
+
+Paralela
+orienta a eventos
+
+-----------------------
+
+Aula 3  POO
+
+
+sexta
+https://forms.gle/sP7NVQALuYsk7bs79
+
+
+---
+
+(primeira geração) - funções para hardware
+01010101010101010101010 10101010
+fenômenos da natu. - 1 ou 0 bit, 8 byte, 
+1024 - kb, 1024 mgb, 1024 gib, ter, pe...
+
+0000 0001 = 1
+
+1+1 
+2
+
+0000 0001
+0010 1011  
+0000 0001
+0000 0010
+
+Palavras mnemonicas
+
+ADD, MOV, REG, REM, DIM, SUB, LABEL, GOTO
+ - roda dentro dos processadores
+
+Ex. assembly
+
+http://cssimplified.com/computer-organisation-and-assembly-language-programming/beginner-write-your-first-assembly-language-program-hello-world-explained
+
+(segunda geração) -  funções para negócios
+IMPERATIVO
+palavras em inglês
+
+if, else, main, include, goto, label,switch, for, while
+print ...  
+
+Ex. C, Pascal, fortran, 
+
+void main(){
+	printf("Hello World");
+}
+
+
+(terceira geração) - Abstração
+POO.
+
+abstração: é tornar computável aspectos ou propriedades do mundo
+real.
+
+Animal
+nome
+qtd patas
+donx
+data nascimento
+vacina
+peso
+raca
+rip
+
+
+CLASSE: conjunto de característica com uma identificação.
+Ex. Animal, Pizza, Carro, Aluno , IES ...
+
+ATRIBUTO:propriedades da Classe.
+Ex. nome, qtd patas, Poder, preço, cnpj ( atributos ou variável )
+
+OBJETO (instância): seria o conjunto de dados de uma classe, new object,
+
+Ex. nome dos bichos, nome dos alunos, nome das pizzas,
+
+MÉTODO: Comportamento - ação do objeto.
+
+
+Animal Bolso= new Animal();
+Animal Clotilde = new Animal();
+Animal Lulinha = new Animal();
+
+
+Aluno Seya= new Aluno();
+Aluno Goku=new Aluno();
+Aluno Naruto = new Aluno();
+
+
+
+
+
+(quarta geração) - Automatizar tarefas
+
+---
+Compilador
+
+Código de máquina ()
+
+Interpretador
+
+Execução repl it
+
+Introdução Linguagem Java
+

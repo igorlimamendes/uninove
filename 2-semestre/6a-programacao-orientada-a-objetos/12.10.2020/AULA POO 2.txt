@@ -1,0 +1,230 @@
+PARADIGMAS COMPUTACIONAIS.
+formas de pensamento.
+
+-POO : onde toda a programação é pensada em forma de objeto.
+
+objeto1
+objeto2
+
+herança
+
+objsite1 ----ahhhhaaaar
+objsite2 ----bbbbbttt
+objsite3 ----ccccc
+
+
+objsite4 - site1, site2
+objsite5 - site1,site2,site3
+objsite6- site5----dddd
+objsite7 - site3 ----fffff
+
+-------------------------------------
+
+Pessoa { nome, idade, sexo, tel }
+
+CadastroClientes {
+main()
+{
+
+	Pessoa p1;
+	p1.nome = "Alan"
+	p1.idade= 23
+	p1.sexo = "M"
+	p1.tel = 123
+
+	Pessoa p2;
+	p2.nome= "Barbara"
+	p2.idade = 34
+	p2.sexo ="F"
+	p2.tel =234
+
+	Pessoa px;
+	px.nome = 
+	px.idade=
+	px.sexo=
+	px.tel=
+}
+}
+
+----------------
+
+Celular { nome, preco, fabricante }
+
+
+Vendas {
+main()
+{
+	Celular c1;
+	Celular c2;
+
+	c1.nome = "xiaomi"
+	c1.preco= 1200
+	c1.fabricante = "china"
+
+	c2.nome = "iphone3"
+	c2.preco = 900
+	c2.fabricante = "ap"
+}
+}
+-----------------------------------
+
+Celular { nome, preco, fabricante }
+
+GarrafaX { ml, conteudo , dimensao , marca ,cor }
+
+Geladeira
+{
+main()
+{
+	GarrafaX g1;
+	GarrafaX g2;
+	GarrafaX g3;
+	GarrafaX gN;
+
+	g1.ml = 1000
+	g1.conteudo = "agua"
+	g1.dimensao = "cilindrico 20, 3"
+	g1.marca = "bonafonte"
+	g1.cor = "transparente"
+
+	g2.ml = 2500ml
+	g2.conteudo = "cocacola"
+	g2.dimensao = "cilindrico 45, 15 "
+	g2.marca = "coca-cola"
+	g2.cor = "transparente"
+
+	g3 ...
+
+	Celular c1;
+
+
+}
+}
+
+Blocos : conjunto de códigos
+
+{ ... }
+
+X { main(){}  get(){} set{} toString(){} }
+-----------------------------------------------
+-Imperativo (procedurais e n~ proce.)
+é pensada como uma sequência de instruções.
+
+Exemplo de Linguagem: TODAS
+
+l1
+l2
+l3
+...
+ln
+
+C, Pascal , Clipper, Qbasic, Vb , Assembly  , Cobol , 
+Progress, Process.
+
+Imperativa que pode ser divida em:	
+	-Procedural: é quando temos um conjunto de linhas e determinamos um nome para ela, e chamamos esse conjunto de linhas durante o programa.
+
+	f1: l1,l2, l3
+
+	l4
+	l5
+	l6
+	f1
+	L7
+	L8
+	f1
+			
+
+	-N~ Procedural: é quando não temos uma função , e somente temos uma sequência de instruções.
+	
+	l1
+	l2
+	l3
+	l4
+	...
+	lN
+ 
+	Assembly
+
+
+-Lógicas: é como se fosse uma base de conhecimento em um programa de 
+inteligência artificial.
+Prolog
+
+-base de conhecimento
+-resgate de conhecimento
+
+base de conhecimento
+	cadastro(rolfi,54,M).
+	cadastro(ana,53,F).
+	cadastro(luciane,23,F).
+
+resgate de conhecimento
+	
+	cadastro(N,I,F)?
+
+	cadastro(ana,53).
+	cadastro(luciane,23,F).
+
+-Funcionais: é como se fosse uma fórmula matemática.
+Lisp, haskel, "Java", "javascript", python
+
+f(x) = (ax * ax)  + bx  + c
+f(3) = (a3 * a3)  + b3  + c
+
+
+<script>
+var a=1;
+alert(a);
+
+</script>
+exemplo de uma soma no lisp
+var a=11111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+
+a= a + 1
+
+
+11111111111111112222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222223
+
+(print "Hello World")
+--------------------------------------------
+-orientada a eventos ( VB, javascript )
+é uma linguagem que espera que o usuário entre com uma ação para 
+executar.
+
+
+-programação paralela
+
+Thread - são pedaços de programa que são executados na memória.
+
+
+p1 bloco de notas - 1-2-3-4-5-6-7-8-9-10
+p2 calculadora - 7-8-9-10
+p3 internet explorer - 12-21-31-41
+   |
+  ESTE é o thread !
+
+
+N1:memória: 
+p1-1-2-3 ... 10
+p2-7-8-9 ... 10
+p3-12-21-31 ...41
+
+
+p4
+p5
+p6
+
+N2: memória : p6
+
+webservice.
+Banco.
+
+loop invinito
+cartão de credito()
+
+
+- ...
+
+programação alto nível
+programação baixo nível
