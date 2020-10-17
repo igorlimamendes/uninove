@@ -1,0 +1,41 @@
+===============================================
+
+Aula 6
+
+===============================================
+
+//SOBRECARGA: funções com o mesmo nome - MAS -com 
+    // retornos de tipagens diferentes 
+
+
+Tipagens:
+int - inteiros - 5
+float - float - 5.5f
+
+double
+long
+boolean
+char
+String
+
+
+CRUZ(2020):"Então o construtor, seria para alocar informações e valores que serão executados durante o andamento do programa ?"-Sim.
+
+- Construtor 
+
+public 
+private
+
+
+
+
+
+
+
+Recapitular
+
+
+
+
+Classe -
+
