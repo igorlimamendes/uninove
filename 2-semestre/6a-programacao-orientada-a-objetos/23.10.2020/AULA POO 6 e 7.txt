@@ -1,0 +1,104 @@
+===============================================
+
+Aula 6
+
+===============================================
+
+//SOBRECARGA: funções com o mesmo nome - MAS -com 
+    // retornos de tipagens diferentes 
+
+
+Tipagens:
+int - inteiros - 5
+float - float - 5.5f
+
+double
+long
+boolean
+char
+String
+
+
+CRUZ(2020):"Então o construtor, seria para alocar informações e valores que serão executados durante o andamento do programa ?"-Sim.
+
+- Construtor 
+
+public 
+private
+
+
+Recapitular
+
+Classe -
+----------------------
+
+19:34 23/10/2020
+
+
+Tópicos da Aula 4,5 e 6
+
+-Classes (moldes), Métodos (função e procedures [procedimentos]),
+atributos (variáveis) .
+- Objetos (instâncias).
+- Construtor ( loading, carregando inicial do programa).
+- Encapsulamento (get´s e set´s das variáveis - idade) 
+	getIdade - pega a idade
+	setIdade - seta o valor da idade
+- Sobrecarga.
+
+=======================================================
+Tópicos da Aula 7
+
+========================================================
+
+terminar a classe calculadora exemplo - fala de sobrecarga.
+
+-casting conversão
+
+ // AULA 7 MATÉRIA
+    //CASTING mudança de tipos de variáveis
+    // nome, endereço, número
+
+Double.parseDouble (String) converte uma String em double
+Integer.parseInt(String) converte uma String em inteiro int
+Float.parseFloat(String) converte uma String em flutuante
+
+    public double subtracao (String a, String b){
+        double c;
+        c= Double.parseDouble(a) - Double.parseDouble(b);
+       // c = Integer.parseInt(a) - Integer.parseInt(b);
+       //c = Float.parseFloat(a) - Float.parseFloat(b);
+        return c;
+    }
+   
+
+
+-Object - "objeto genérico que aceita tudo"
+  concateção - quando soma-se letras ex.
+	"Rolfi" + "Luz" = "RolfiLuz"
+	só funciona com String , é um tipo de variável
+	que somente recebe valores alfanuméricos - nome, email
+	telefone ()-, cpf ..- , rg x-.
+
+  função .toString() - transforma o objeto em uma String
+
+public Object soma(Object a,Object b){
+
+	double c= Double.parseDouble(a+"")+
+		  Double.parseDouble(b.toString());
+	return c;
+}
+
+
+
+
+==============================
+
+Aula 8
+
+Polimorfismo
+
+==============================
+
+
+
