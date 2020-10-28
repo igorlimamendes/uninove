@@ -11,3 +11,5 @@ https://brizeno.wordpress.com/padroes/
 View : Dentro Páginas Web (MVC)
 
 https://edsonmelo.com.br/uni9-bonus/
+
+Avaliação Android e Arquitetura: 17/11

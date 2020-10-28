@@ -13,3 +13,5 @@ https://github.com/EdsonMSouza/mobile_vergueiro_noite/tree/master/aula_04_ativid
 3 - No arquivo.java fazer as associações dos objetos com o findViewById(R.id.nome_do_objeto)
 
 https://forms.gle/CZhQFpaQ4nGqvavYA (cad. turma)
+
+Avaliação Android e Arquitetura: 17/11
