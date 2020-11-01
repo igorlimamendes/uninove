@@ -1,0 +1,228 @@
+===============================================
+
+Aula 6
+
+===============================================
+
+//SOBRECARGA: funções com o mesmo nome - MAS -com 
+    // retornos de tipagens diferentes 
+
+
+Tipagens:
+int - inteiros - 5
+float - float - 5.5f
+
+double
+long
+boolean
+char
+String
+
+
+CRUZ(2020):"Então o construtor, seria para alocar informações e valores que serão executados durante o andamento do programa ?"-Sim.
+
+- Construtor 
+
+public 
+private
+
+
+Recapitular
+
+Classe -
+----------------------
+
+19:34 23/10/2020
+
+
+Tópicos da Aula 4,5 e 6
+
+-Classes (moldes), Métodos (função e procedures [procedimentos]),
+atributos (variáveis) .
+- Objetos (instâncias).
+- Construtor ( loading, carregando inicial do programa).
+- Encapsulamento (get´s e set´s das variáveis - idade) 
+	getIdade - pega a idade
+	setIdade - seta o valor da idade
+- Sobrecarga.
+
+=======================================================
+Tópicos da Aula 7
+
+========================================================
+
+terminar a classe calculadora exemplo - fala de sobrecarga.
+
+-casting conversão
+
+ // AULA 7 MATÉRIA
+    //CASTING mudança de tipos de variáveis
+    // nome, endereço, número
+
+Double.parseDouble (String) converte uma String em double
+Integer.parseInt(String) converte uma String em inteiro int
+Float.parseFloat(String) converte uma String em flutuante
+
+    public double subtracao (String a, String b){
+        double c;
+        c= Double.parseDouble(a) - Double.parseDouble(b);
+       // c = Integer.parseInt(a) - Integer.parseInt(b);
+       //c = Float.parseFloat(a) - Float.parseFloat(b);
+        return c;
+    }
+   
+Ex.
+Double.parseDouble (int+"")
+Double.parseDouble (new String(int)) converte uma String em double
+
+
+-Object - "objeto genérico que aceita tudo"
+  concateção - quando soma-se letras ex.
+	"Rolfi" + "Luz" = "RolfiLuz"
+	só funciona com String , é um tipo de variável
+	que somente recebe valores alfanuméricos - nome, email
+	telefone ()-, cpf ..- , rg x-.
+
+  função .toString() - transforma o objeto em uma String
+
+Ex.
+Carro car= new Carro();
+car.toString();
+
+
+public Object soma(Object a,Object b){
+
+	double c= Double.parseDouble(a+"")+
+		  Double.parseDouble(b.toString());
+	return c;
+}
+
+
+CASTING - termo técnico de mudança de tipos.
+ex. string para int ...
+
+
+==============================
+
+Aula 8
+
+Polimorfismo
+
+==============================
+
+
+
+Tratamento de ERRO - Exception
+SILVA e PORTO(2020) : "isso serve pro programa não parar, é quase como um if else de erro".
+Felix(2020):"o catch só vai ser executado se tiver algum erro no bloco try"
+
+ try{  
+	//
+  }
+ catch(Exception e){
+	System.out.println("Erro:"+e);
+	}
+
+---------
+
+
+String login,senha;
+
+//l1
+// l2
+try {
+
+	java.sql.ResultSet res=stm.executeQuery("Select * from cadastro where login='"+
+	login+"' and senha='"+senha+"'");
+	
+	if( res==null )
+	{
+		Sys..("Login inválido");
+		return null;
+	}
+	//// só vai executar se tiver o login
+
+	//l3
+            
+	try {
+		//l4 
+                try {
+                    //l5 
+                } catch (Exception erro) {
+			// QUANTAS LINHAS PRECISAREM
+                  System.out.println("Erro:" + erro);   
+                }
+            } catch (Exception e) {
+                System.out.println("Erro:" + e);
+            }
+        }
+	catch(SQLException z){ S... ("Erro:"+z);} 
+	catch (Exception X) {
+            System.out.println("Erro:" + X);
+        }
+
+//l6        
+
+================================
+
+
+Herança
+
+
+
+Pai - cabelo, olhos .
+
+
+	herança, herança - Polimorfismo.
+Filho - cabelo, olhos,     skate.
+
+
+
+class Pai {
+	String cabelo, olhos;
+	public void imprimir()
+	{ 
+		Syste...("Teste");
+	}
+	
+}
+
+class Filhos extends Pai {
+	String skate; // POLIMORFICA
+}
+
+
+Filhos f1=new Filhos();
+f1.cabelo
+f1.olhos
+f1.skate
+f1.imprimir()
+
+class Neto extends Filhos {
+
+}
+
+Neto n1=new Neto();
+n1.cabelo
+n1.olhos
+n1.skate
+n1.imprimir()
+
+
+class Bisneto extends Neto {
+
+}
+
+
+Bisneto b1=new Bisneto();
+b1.cabelo
+b1.olhos
+b1.skate
+b1.imprimir()
+
+
+
+PORTO e JACINTO(2020) :" Polimorfismo =  Classe q herda da Superclasse porém tem suas características. Herança= Características herdada da Superclasse, para herdar é só usar o extends" 
+
+
+-------
