@@ -1,0 +1,39 @@
+Interfaces : padrões de código que se localizam entre duas tecnologias distintas.
+
+PROGRAMA (conjun. memória/processador) 
+	<interface (ponte)> 
+Banco de Dados (Serviço)
+
+
+
+Java
+	<jdbc, odbc , dao , drivers, pluggins >
+My SQL , Sqlite , ... 
+
+
+-
+PT/ I                    PT/I 
+ 0                    0
+ |-       LINGUAGEM - |
+/\                   /|
+
+         Drive /Interface
+
+
+
+
+
+
+----------------------
+Classes Abstratas
+
+-É uma programação pré-pronta para classes filhas
+-não é utilizada na memória (Ferreira)
+-classe que não instância (Porto)
+-Usada como referência (Santos)
+-Pode transferir suas funções e características para classes filhas (Silva)
+-Facil para manutenção (Ferreira)
+
+
+abstract Pessoa
+
