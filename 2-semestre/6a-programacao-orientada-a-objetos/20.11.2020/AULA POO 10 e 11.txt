@@ -1,0 +1,80 @@
+
+
+Aplicação dos conceitos OO em interfaces GUI.
+
+Interface
+Herança
+Polimorfismo
+Encapsulamento
+
+conceitos OO ( atributos, classes , instâncias )
+=====================================
+
+Aula 11 
+
+c# , java , php , python
+
+php - cookie, laravel, frameworks
+java - spring, struts
+c# - framework ????
+python - framework
+
+php, c#, node, javascript
+
+framework
+
+
+=========================================
+
+interface List {
+	public void imprimir();
+	public void add(Object o);
+}
+
+class ArrayList 
+implements List {
+
+public void imprimir()
+{
+	System.out.println("--");
+}
+
+public void add(Object e)
+{
+
+}
+
+}
+
+
+class LinkedList 
+implements List {
+
+public void imprimir()
+{
+	System.out.println("--");
+}
+
+public void add(Object e)
+{
+
+}
+
+}
+====================================================
+
+Documentação técnica 
+
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+
+https://www.w3schools.com/java/java_booleans.asp
+
+
+
+
+
+
+
+
+
+
