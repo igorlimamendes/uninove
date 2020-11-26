@@ -1,0 +1,10 @@
+valorA > valorB : false
+valorA < valorB : true
+valorA >= valorB : true
+valorA <= valorB : true
+valorA == valorB : true
+valorA != valorB : false
+valorA != valorB : true
+valorA != valorA : false
+valorA != 3: true
+valorB != 3: false

@@ -1,0 +1,10 @@
+(valorA > valorB) && (valorA = = valorB): false
+(true) && (false) && (false): false
+(true)  || (false) || (false): true
+(valorA > valorB) ||  (valorA = = valorB): false
+(valorA >= valorB) && (valorA = = valorB): true
+(valorA >= valorB) || (valorA = = valorB): true
+(valorA <= valorB) && (valorA = = valorB): false
+(valorA <= valorB) || (valorA = = valorB): true
+(true) && (valorA = = valorB): true
+(true) || (valorA = = valorB): true
