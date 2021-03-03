@@ -1,5 +1,1 @@
 marcos.antonio@uni9.pro.br
-
-O arquivo ‘Proc Neg Caso 02’ contém o texto do estudo de caso usado nesta aula.
-Um único aluno de seu grupo deverá enviar as respostas do seu time usando o arquivo ‘Proc Neg Caso 02_Respostas’ para o meu endereço de e-mail MARCOS.ANTONIO@UNI9.PRO.BR
-Copie ‘TADS – Processos de Negócio’  como o título do e-mail que você o seu grupo enviará.
